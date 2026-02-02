@@ -1,0 +1,16 @@
+ESP32 CONNECTIONS
+
+Power:
+- ESP32 3.3V → Heart Sensor VIN
+- ESP32 3.3V → Fall Sensor VIN
+- ESP32 3.3V → Buzzer VCC
+- ESP32 GND  → Heart Sensor GND
+- ESP32 GND  → Fall Sensor GND
+- ESP32 GND  → Buzzer GND
+
+I2C:
+- GPIO21 → SDA (Heart Sensor + Fall Sensor)
+- GPIO22 → SCL (Heart Sensor + Fall Sensor)
+
+Buzzer:
+- GPIO25 → Buzzer Signal
